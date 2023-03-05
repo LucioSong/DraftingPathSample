@@ -47,6 +47,7 @@
             this.button_get_sel_minmax = new System.Windows.Forms.Button();
             this.button_test = new System.Windows.Forms.Button();
             this.button_sel_func = new System.Windows.Forms.Button();
+            this.button_set_parameter_color = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -339,11 +340,22 @@
             this.button_sel_func.UseVisualStyleBackColor = true;
             this.button_sel_func.Click += new System.EventHandler(this.button_sel_func_Click);
             // 
+            // button_set_parameter_color
+            // 
+            this.button_set_parameter_color.Location = new System.Drawing.Point(542, 13);
+            this.button_set_parameter_color.Name = "button_set_parameter_color";
+            this.button_set_parameter_color.Size = new System.Drawing.Size(118, 23);
+            this.button_set_parameter_color.TabIndex = 11;
+            this.button_set_parameter_color.Text = "Parameter color";
+            this.button_set_parameter_color.UseVisualStyleBackColor = true;
+            this.button_set_parameter_color.Click += new System.EventHandler(this.button_set_parameter_color_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 861);
+            this.Controls.Add(this.button_set_parameter_color);
             this.Controls.Add(this.button_sel_func);
             this.Controls.Add(this.button_test);
             this.Controls.Add(this.button_get_sel_minmax);
@@ -396,6 +408,7 @@
         private System.Windows.Forms.Button button_get_sel_minmax;
         private System.Windows.Forms.Button button_test;
         private System.Windows.Forms.Button button_sel_func;
+        private System.Windows.Forms.Button button_set_parameter_color;
     }
 }
 

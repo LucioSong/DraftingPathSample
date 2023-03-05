@@ -4,13 +4,6 @@ using DraftPath._3DTools.DraftEntity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DraftingPathSample
@@ -178,6 +171,18 @@ namespace DraftingPathSample
 
             _selectionFunc.Show();
             _selectionFunc.Focus();
+        }
+
+        ParameterColor _parameterColor = null;
+        private void button_set_parameter_color_Click(object sender, EventArgs e)
+        {
+            if (_parameterColor == null)
+            {
+                _parameterColor = new ParameterColor(viewport);
+            }
+
+            _parameterColor.Show();
+            _parameterColor.Focus();
         }
     }
 }
