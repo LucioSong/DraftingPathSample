@@ -49,7 +49,7 @@ namespace DraftingPathSample
         private void button_add_text_Click(object sender, EventArgs e)
         {
             bool ret = viewport.CreateEntityText("Drafting Path");
-            MessageBox.Show(ret.ToString());            
+            MessageBox.Show(ret.ToString());
         }
 
         private void button_get_path_Click(object sender, EventArgs e)
@@ -183,6 +183,12 @@ namespace DraftingPathSample
 
             _parameterColor.Show();
             _parameterColor.Focus();
+        }
+
+        private void button_add_spiral_Click(object sender, EventArgs e)
+        {
+            bool ret = viewport.CreateEntitySpiral(15);
+            MessageBox.Show(ret.ToString());
         }
     }
 }

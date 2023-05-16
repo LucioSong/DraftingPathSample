@@ -73,9 +73,9 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DraftingPathComponent, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="DraftingPathComponent, Version=0.0.1.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>DraftingPathComponentDLL\DraftingPathComponent.dll</HintPath>
+      <HintPath>DraftingPathComponentDLL_x64\DraftingPathComponent.dll</HintPath>
     </Reference>
     <Reference Include="DraftingPathStruct, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

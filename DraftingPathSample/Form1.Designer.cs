@@ -48,6 +48,7 @@
             this.button_test = new System.Windows.Forms.Button();
             this.button_sel_func = new System.Windows.Forms.Button();
             this.button_set_parameter_color = new System.Windows.Forms.Button();
+            this.button_add_spiral = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -291,7 +292,7 @@
             // 
             // button_get_path
             // 
-            this.button_get_path.Location = new System.Drawing.Point(95, 13);
+            this.button_get_path.Location = new System.Drawing.Point(175, 13);
             this.button_get_path.Name = "button_get_path";
             this.button_get_path.Size = new System.Drawing.Size(80, 23);
             this.button_get_path.TabIndex = 6;
@@ -301,7 +302,7 @@
             // 
             // button_import_dxf_dwg
             // 
-            this.button_import_dxf_dwg.Location = new System.Drawing.Point(181, 13);
+            this.button_import_dxf_dwg.Location = new System.Drawing.Point(261, 13);
             this.button_import_dxf_dwg.Name = "button_import_dxf_dwg";
             this.button_import_dxf_dwg.Size = new System.Drawing.Size(105, 23);
             this.button_import_dxf_dwg.TabIndex = 7;
@@ -311,7 +312,7 @@
             // 
             // button_get_sel_minmax
             // 
-            this.button_get_sel_minmax.Location = new System.Drawing.Point(292, 13);
+            this.button_get_sel_minmax.Location = new System.Drawing.Point(372, 13);
             this.button_get_sel_minmax.Name = "button_get_sel_minmax";
             this.button_get_sel_minmax.Size = new System.Drawing.Size(120, 23);
             this.button_get_sel_minmax.TabIndex = 8;
@@ -332,7 +333,7 @@
             // 
             // button_sel_func
             // 
-            this.button_sel_func.Location = new System.Drawing.Point(418, 13);
+            this.button_sel_func.Location = new System.Drawing.Point(498, 13);
             this.button_sel_func.Name = "button_sel_func";
             this.button_sel_func.Size = new System.Drawing.Size(118, 23);
             this.button_sel_func.TabIndex = 10;
@@ -342,7 +343,7 @@
             // 
             // button_set_parameter_color
             // 
-            this.button_set_parameter_color.Location = new System.Drawing.Point(542, 13);
+            this.button_set_parameter_color.Location = new System.Drawing.Point(622, 13);
             this.button_set_parameter_color.Name = "button_set_parameter_color";
             this.button_set_parameter_color.Size = new System.Drawing.Size(118, 23);
             this.button_set_parameter_color.TabIndex = 11;
@@ -350,11 +351,22 @@
             this.button_set_parameter_color.UseVisualStyleBackColor = true;
             this.button_set_parameter_color.Click += new System.EventHandler(this.button_set_parameter_color_Click);
             // 
+            // button_add_spiral
+            // 
+            this.button_add_spiral.Location = new System.Drawing.Point(94, 13);
+            this.button_add_spiral.Name = "button_add_spiral";
+            this.button_add_spiral.Size = new System.Drawing.Size(75, 23);
+            this.button_add_spiral.TabIndex = 12;
+            this.button_add_spiral.Text = "Add Spiral";
+            this.button_add_spiral.UseVisualStyleBackColor = true;
+            this.button_add_spiral.Click += new System.EventHandler(this.button_add_spiral_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 861);
+            this.Controls.Add(this.button_add_spiral);
             this.Controls.Add(this.button_set_parameter_color);
             this.Controls.Add(this.button_sel_func);
             this.Controls.Add(this.button_test);
@@ -409,6 +421,7 @@
         private System.Windows.Forms.Button button_test;
         private System.Windows.Forms.Button button_sel_func;
         private System.Windows.Forms.Button button_set_parameter_color;
+        private System.Windows.Forms.Button button_add_spiral;
     }
 }
 
