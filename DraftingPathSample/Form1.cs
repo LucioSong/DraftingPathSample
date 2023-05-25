@@ -187,7 +187,7 @@ namespace DraftingPathSample
 
         private void button_add_spiral_Click(object sender, EventArgs e)
         {
-            bool ret = viewport.CreateEntitySpiral(15);
+            bool ret = viewport.CreateEntitySpiral(10, 10, 0, 15);
             MessageBox.Show(ret.ToString());
         }
     }
