@@ -2,7 +2,7 @@
 
 3D 캐드 기반의 기본적인 Entity 생성 / 수정 / 삭제 등을 할 수 있는 샘플코드 입니다. Visual studio 2022 에서 작업하였으며, 프로젝트 내부 DraftingPathComponentDLL / DraftingPathComponentDLL_x64 폴더에 필요 DLL이 있습니다. Bit를 선택적으로 Build 할 때에는 참조에서 DraftingPathComponent.dll을 해당 폴더에서 선택 후 Build를 진행해야 합니다. 기본적으로 64bit로 구성되어 있으며, BuildEvent에 필요한 Dll은 빌드 후 복사되도록 구성되어 있습니다.
 
-기본적으로 Evaluation version으로 되어 있습니다. USB Dongle 형태로 라이센스를 부여하는 방식으로 되어 있으니 아래 페이지에 방명록을 남겨주시면 Demo Dongle을 보내드리는 방식으로 하고자 합니다. 이용에 참고 부탁드립니다.
+기본적으로 Evaluation version으로 되어 있습니다. USB Dongle 형태로 라이센스를 부여하는 방식으로 되어 있으니 아래 페이지에 방명록을 남겨주시면 Demo Dongle을 보내드리는 방식으로 합니다. 이용에 참고 부탁드립니다.
 
 문의 사항은 https://luciodev.tistory.com/ 의 방명록에 남겨주세요~!
 
